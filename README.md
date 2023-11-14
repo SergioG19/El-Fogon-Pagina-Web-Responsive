@@ -2,6 +2,9 @@
 
 Este repositorio contiene el código fuente para la página web del restaurante El Fogón. El objetivo del sitio es promocionar los servicios y la experiencia que ofrece este restaurante de cocina tradicional venezolana.
 
+# Enlace de Vídeo Explicativo.
+    https://youtu.be/h5xuFf0lwUc?si=yD30BMuTC4Va1t-D
+
 ## Tecnologías utilizadas
 
 - HTML5 y CSS3 para la estructura y diseño del sitio. 
@@ -38,6 +41,16 @@ Este repositorio contiene el código fuente para la página web del restaurante 
     ```bash
     npm run build
     ```
+
+## Contribución
+
+Si deseas contribuir a este proyecto, sigue estos pasos:
+
+1. Haz un fork del proyecto.
+2. Crea una rama para tu nueva característica (`git checkout -b nueva-caracteristica`).
+3. Realiza los cambios y haz commit (`git commit -am 'Añade nueva característica'`).
+4. Haz push a la rama (`git push origin nueva-caracteristica`).
+5. Abre una solicitud de extracción.
 
 ## Autor
 
