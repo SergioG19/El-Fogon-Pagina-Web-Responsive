@@ -3,7 +3,10 @@
 Este repositorio contiene el código fuente para la página web del restaurante El Fogón. El objetivo del sitio es promocionar los servicios y la experiencia que ofrece este restaurante de cocina tradicional venezolana.
 
 # Enlace de Vídeo Explicativo.
-    https://youtu.be/h5xuFf0lwUc?si=yD30BMuTC4Va1t-D
+https://youtu.be/h5xuFf0lwUc?si=yD30BMuTC4Va1t-D
+
+# Mockups y Wireframes de la Página
+https://drive.google.com/drive/folders/1iupTO2biwnQjz9WYlebVbPFpkXuDUsYX
 
 ## Tecnologías utilizadas
 
