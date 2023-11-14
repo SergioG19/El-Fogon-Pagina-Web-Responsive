@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>El Fogón - La cocina tradicional.</title>
+    <meta name="title" content="El Fogón - La cocina tradicional." />
+    <meta
+      name="description"
+      content="El Fogón es un restaurante tradicional que ofrece una cocina casera y reconfortante"
+    />
+
+    <!-- FAVICON -->
+    <link rel="icon" href="../src/Logo e Iconos/favicon2.svg" />
+
+    <!-- FUENTES DE GOOGLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Archivo Css -->
+
+    <!-- Imagenes Precargadas -->
+    <link
+      rel="preload"
+      as="image"
+      href="../src/imagenes/Slider 1.jpg"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="../src/imagenes/slider 2.2.jpg"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="../src/imagenes/slider 3.jpg (1).jpg"
+    />
+  </head>
+
+  <body id="top">
+    <!-- CARGA PREVIA -->
+    <div class="preload" data-preaload>
+      <div class="circle"></div>
+      <p class="text">El Fogón</p>
+    </div>
+
+    <!-- BARRA SUPERIOR -->
+    <div class="topbar">
+      <div class="container">
+        <address class="topbar-item">
+          <div class="icon">
+            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">
+            Avenida Bolivar, Calle 32, Valera, Estado Trujillo
+          </span>
+        </address>
+
+        <div class="separator"></div>
+
+        <div class="topbar-item item-2">
+          <div class="icon">
+            <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span"
+            >Abierto todos los días: 6:00 a.m. a 11:00 p.m.</span
+          >
+        </div>
+
+        <a href="tel:04125293525" class="topbar-item link">
+          <div class="icon">
+            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">0412-5293525</span>
+        </a>
+
+        <div class="separator"></div>
+
+        <a href="mailto:elfogon@gmail.com" class="topbar-item link">
+          <div class="icon">
+            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">elfogon@gmail.com</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- HEADER -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="../src/Logo e Iconos/logo restaurante simple negro 222.svg"
+            width="160"
+            height="50"
+            alt="El Fogón - Home"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <a href="#" class="logo">
+            <img
+              src="../src/Logo e Iconos/logo restaurante simple negro 222.svg"
+              width="160"
+              height="50"
+              alt="El Fogón - Home"
+            />
+          </a>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#Home" class="navbar-link hover-underline active">
+                <div class="separator"></div>
+
+                <span class="span">Home</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#Menu" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Menus</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#Sobre" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Sobre Nosotros</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Nuestros Chefs</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Contacto</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="text-center">
+            <p class="headline-1 navbar-title">Visitanos</p>
+
+            <address class="body-4">
+              Avenida Bolivar, Calle 32, <br />
+              Valera, Trujillo
+            </address>
+
+            <p class="body-4 navbar-text">Abierto: 6:00 a.m. a 11:00 p.m.</p>
+
+            <a href="mailto:elfogon@gmail.com" class="body-4 sidebar-link"
+              >elfogon@gmail.com</a
+            >
+
+            <div class="separator"></div>
+
+            <p class="contact-label">Solicitar Reserva</p>
+
+            <a
+              href="tel:04125293525"
+              class="body-1 contact-number hover-underline"
+            >
+              0412-5293525
+            </a>
+          </div>
+        </nav>
+
+        <a href="" class="btn btn-secondary">
+          <span class="text text-1">Reserva una Mesa</span>
+
+          <span class="text text-2" aria-hidden="true">Reserva una Mesa</span>
+        </a>
+
+        <button class="nav-open-btn" aria-label="Abrir menú" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+
+        <!-- HERO -->
+
+        <section class="hero text-center" aria-label="home" id="home">
+          <ul class="hero-slider" data-hero-slider>
+            <li class="slider-item active" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="../src/imagenes/Slider 1.jpg"
+                  width="1880"
+                  height="950"
+                  alt=""
+                  class="img-cover"
+                />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                Sabores tradicionales
+              </p>
+
+              <h1 class="display-1 hero-title slider-reveal">El Fogón</h1>
+
+              <p class="body-2 hero-text slider-reveal">
+                En nuestro menú encontrarás platos típicos de la gastronomía
+                venezolana, <br />
+                elaborados con ingredientes frescos y de primera calidad.
+              </p>
+
+              <a href="#" class="btn btn-primary slider-reveal">
+                <span class="text text-1">Mira nuestro menú</span>
+
+                <span class="text text-2" aria-hidden="true"
+                  >Mira nuestro menú</span
+                >
+              </a>
+            </li>
+
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="../src/imagenes/slider 2.2.jpg"
+                  width="1880"
+                  height="950"
+                  alt=""
+                  class="img-cover"
+                />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                Ambiente cálido y acogedor
+              </p>
+
+              <h1 class="display-1 hero-title slider-reveal">
+                Un ambiente especial
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal">
+                El Fogón es un lugar ideal para disfrutar de una comida o cena
+                en un ambiente cálido y acogedor.
+              </p>
+
+              <a href="#" class="btn btn-primary slider-reveal">
+                <span class="text text-1">Mira nuestro menú</span>
+
+                <span class="text text-2" aria-hidden="true"
+                  >Mira nuestro menú</span
+                >
+              </a>
+            </li>
+
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="../src/imagenes/slider 3.jpg"
+                  width="1880"
+                  height="950"
+                  alt=""
+                  class="img-cover"
+                />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                Experiencia gastronómica inolvidable
+              </p>
+
+              <h1 class="display-1 hero-title slider-reveal">Reserva Ahora</h1>
+
+              <p class="body-2 hero-text slider-reveal">
+                Haz tu reserva ahora y disfruta de una experiencia gastronómica
+                inolvidable en El Fogón.
+              </p>
+
+              <a href="#" class="btn btn-primary slider-reveal">
+                <span class="text text-1">Mira nuestro menú</span>
+
+                <span class="text text-2" aria-hidden="true"
+                  >Mira nuestro menú</span
+                >
+              </a>
+            </li>
+          </ul>
+
+          <button
+            class="slider-btn prev"
+            aria-label="slide to previous"
+            data-prev-btn
+          >
+            <ion-icon name="chevron-back"></ion-icon>
+          </button>
+
+          <button
+            class="slider-btn next"
+            aria-label="slide to next"
+            data-next-btn
+          >
+            <ion-icon name="chevron-forward"></ion-icon>
+          </button>
+
+          <a href="#" class="hero-btn has-after">
+            <img
+              src="../src/Logo e Iconos/icono de hero.png"
+              width="48"
+              height="48"
+              alt="icono de reserva"
+            />
+
+            <span class="label-2 text-center span">Reserva Una Mesa</span>
+          </a>
+        </section>
+
+        <!-- SERVICIOS -->
+
+        <section
+          class="section service bg-black-10 text-center"
+          aria-label="service"
+        >
+          <div class="container">
+            <p class="section-subtitle label-2">Sabores Exquisitos</p>
+
+            <h2 class="headline-1 section-title">Ofrecemos la mejor calidad</h2>
+
+            <p class="section-text">
+              En El Fogón, nos comprometemos a ofrecer la mejor calidad en
+              nuestros platos. Para ello, utilizamos ingredientes frescos y de
+              primera calidad, y elaboramos nuestros platos con el máximo
+              cuidado y atención. Nuestro objetivo es que nuestros clientes
+              disfruten de una experiencia gastronómica inolvidable, con sabores
+              exquisitos que les hagan recordar nuestro restaurante.
+            </p>
+
+            <ul class="grid-list">
+              <li>
+                <div class="service-card">
+                  <a href="#" class="has-before hover:shine">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 285; --height: 336"
+                    >
+                      <img
+                        src="../src/imagenes/servicio 1.jpg"
+                        width="285"
+                        height="336"
+                        loading="lazy"
+                        alt="desayuno"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="#">Desayuno</a>
+                    </h3>
+
+                    <a href="#" class="btn-text hover-underline label-2"
+                      >Ver Menú</a
+                    >
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <a href="#" class="has-before hover:shine">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 285; --height: 336"
+                    >
+                      <img
+                        src="../src/imagenes/Servicio 2.jpg"
+                        width="285"
+                        height="336"
+                        loading="lazy"
+                        alt="almuerzo"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="#">Almuerzos</a>
+                    </h3>
+
+                    <a href="#" class="btn-text hover-underline label-2"
+                      >Ver Menú</a
+                    >
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <a href="#" class="has-before hover:shine">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 285; --height: 336"
+                    >
+                      <img
+                        src="../src/imagenes/servicio 3.1.jpg"
+                        width="285"
+                        height="336"
+                        loading="lazy"
+                        alt="bebidas"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="#">Bebidas</a>
+                    </h3>
+
+                    <a href="#" class="btn-text hover-underline label-2"
+                      >Ver Menú</a
+                    >
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <img
+              src="../src/imagenes/forma 1.png"
+              width="246"
+              height="412"
+              loading="lazy"
+              alt="forma"
+              class="shape shape-1 move-anim"
+            />
+            <img
+              src="../src/imagenes/forma 2.png"
+              width="343"
+              height="345"
+              loading="lazy"
+              alt="forma"
+              class="shape shape-2 move-anim"
+            />
+          </div>
+        </section>
+
+        <!-- SOBRE NOSOTROS -->
+
+        <section
+          class="section about text-center"
+          aria-labelledby="about-label"
+          id="about"
+        >
+          <div class="container">
+            <div class="about-content">
+              <p class="label-2 section-subtitle" id="about-label">
+                Nuestra Historia
+              </p>
+
+              <h2 class="headline-1 section-title">
+                Una experiencia gastronómica inolvidable
+              </h2>
+
+              <p class="section-text">
+                El Fogón nació de la pasión por la cocina venezolana de dos
+                amigos, Sergio y Luis. Ambos se conocieron en la universidad, y
+                desde el principio compartieron su amor por la comida
+                tradicional de su país. Después de graduarse, Luis y Sergio
+                decidieron abrir un restaurante que reflejara su pasión por la
+                cocina venezolana. Así nació El Fogón, un restaurante que ofrece
+                una experiencia gastronómica única, con sabores tradicionales y
+                un toque de modernidad. Sergio y Luis se esfuerzan por ofrecer la
+                mejor calidad en sus platos, utilizando ingredientes frescos y
+                de primera calidad. También están comprometidos con ofrecer un
+                servicio personalizado y atento, para que sus clientes se
+                sientan como en casa.
+              </p>
+
+              <div class="contact-label">Reservar por teléfono:</div>
+
+              <a
+                href="tel:04125293525"
+                class="body-1 contact-number hover-underline"
+                >0412-5293525</a
+              >
+
+              <a href="#" class="btn btn-primary">
+                <span class="text text-1">Saber Más</span>
+
+                <span class="text text-2" aria-hidden="true">Saber Más</span>
+              </a>
+            </div>
+
+            <figure class="about-banner">
+              <img
+                src="../src/imagenes/pexels-volkan-vardar-3887985.jpg"
+                width="570"
+                height="570"
+                loading="lazy"
+                alt="sobrenosotrosimagen"
+                class="w-100"
+                data-parallax-item
+                data-parallax-speed="1"
+              />
+
+              <div
+                class="abs-img abs-img-1 has-before"
+                data-parallax-item
+                data-parallax-speed="1.75"
+              >
+                <img
+                  src="../src/imagenes/imagen abs.jpg"
+                  width="285"
+                  height="285"
+                  loading="lazy"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+
+              <div class="abs-img abs-img-2 has-before">
+                <img
+                  src="../src/imagenes/tuenitri.png"
+                  width="133"
+                  height="134"
+                  loading="lazy"
+                  alt=""
+                />
+              </div>
+
+              
+            </figure>
+
+
+          </div>
+        </section>
+
+
+        <!-- Platos Especiales -->
+
+        
+
+
+
+        <!-- Menu -->
+
+
+
+
+        <!-- Testimonios -->
+
+        
+
+
+        <!-- RESERVACION -->
+        <section class="reservation">
+          <div class="container">
+            <div class="form reservation-form bg-black-10">
+              <form method="POST" id="formularioReserva" class="form-left">
+                <h2 class="headline-1 text-center">Reservacion Online</h2>
+                <p class="form-text text-center">
+                  Solicitud de Reservacion
+                  <a href="tel:04125293523" class="link">0412-5293525</a>
+                  o llena nuestro formulario
+                </p>
+
+                <div class="input-wrapper">
+                  <input type="text" id="name" name="name" placeholder="Nombre" autocomplete="off"
+                  class="input-field">
+
+                  <input type="tel" id="phone" name="phone" placeholder="Numero de Telefono" autocomplete="off"
+                  class="input-field">
+                  
+
+                </div>
+
+                <div class="input-wrapper">
+
+                  <div class="icon-wrapper">
+                    <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                    <select id="personas" name="person" class="input-field">
+                      <option value="1-person">1 persona</option>
+                      <option value="2-person">2 personas</option>
+                      <option value="3-person">3 personas</option>
+                      <option value="4-person">4 personas</option>
+                      <option value="5-person">5 personas</option>
+                      <option value="6-person">6 personas</option>
+                      <option value="7-person">7 personas</option>
+                    </select>
+
+                    <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div class="icon-wrapper">
+                    <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                    <input type="date" id="fecha" name="reservation-date"  class="input-field">
+
+                    <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div class="icon-wrapper">
+                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                    <select id="hora" name="person" class="input-field">
+                      <option value="6:00a.m.">6:00 a.m.</option>
+                      <option value="7:00a.m.">7:00 a.m.</option>
+                      <option value="8:00a.m.">8:00 a.m.</option>
+                      <option value="9:00a.m.">9:00 a.m.</option>
+                      <option value="10:00a.m.">10:00 a.m.</option>
+                      <option value="11:00a.m.">11:00 a.m.</option>
+                      <option value="12:00p.m.">12:00 p.m.</option>
+                      <option value="1:00p.m.">1:00 p.m.</option>
+                      <option value="2:00p.m.">2:00 p.m.</option>
+                      <option value="3:00p.m.">3:00 p.m.</option>
+                      <option value="4:00p.m.">4:00 p.m.</option>
+                      <option value="5:00p.m.">5:00 p.m.</option>
+                      <option value="6:00p.m.">6:00 p.m.</option>
+                      <option value="7:00p.m.">7:00 p.m.</option>
+                      <option value="8:00p.m.">8:00 p.m.</option>
+                      <option value="9:00p.m.">9:00 p.m.</option>
+                      <option value="10:00p.m.">10:00 p.m.</option>
+                      <option value="11:00p.m.">11:00 p.m.</option>
+                    </select>
+
+                    <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                  </div>
+
+                </div>
+
+                <textarea id="message" name="message" placeholder="Mensaje" autocomplete="off" 
+                class="input-field"></textarea>
+
+                <button type="submit" class="btn btn-secondary">
+                  <span class="text text-1">Reserva Una Mesa</span>
+
+                  <span class="text text-2" aria-hidden="true">Reserva Una Mesa</span>
+                </button>
+    
+              </form>
+
+              <div class="form-right text-center" style="background-image: url('../src/imagenes/patrones 1.png');">
+              
+                <h2 class="headline-1 text-center">Contactanos</h2>
+
+                <p class="contact-label">Solicitud de Reserva</p>
+
+                <a href="tel:04125293525" class="body-1 contact-number hover-underline">0412-5293525</a>
+
+                <div class="separator"></div>
+
+                <p class="contact-label">Ubicación</p>
+
+                <address class="body-4">
+                  Avenida Bolivar, Calle 32, <br>
+                  Valera, Trujillo.
+                </address>
+
+                <p class="contact-label">Horarios del Desayuno</p>
+
+                <p class="body-4">
+                  De Lunes a Domingo <br>
+                  6:00 a.m. - 10:00 a.m.
+                </p>
+
+                <p class="contact-label">Horarios del Almuerzo</p>
+
+                <p class="body-4">
+                  De Lunes a Domingo <br>
+                  10:00 a.m. - 5:00 p.m.
+                </p>
+                
+                <p class="contact-label">Horarios de la cena</p>
+
+                <p class="body-4">
+                  De Lunes a Domingo <br>
+                  5:00 p.m. - 11:00 p.m.
+                </p>
+
+      
+              </div>
+
+            </div>
+
+          </div>
+        </section>
+        
+      </article>
+    </main>
+
+
+    <!-- FOOTER -->
+
+    
+
+    <!-- BOTON PARA VOLVER HACIA ARRIBA -->
+
+    <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+  
+    <!-- ionicon link -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
