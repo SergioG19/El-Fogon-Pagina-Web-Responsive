@@ -1582,7 +1582,72 @@
     
   }
  
+  /* responsive para pantallas de 1200px */
   
+  @media (min-width:1200px) {
+  
+    /* Propiedades personalizadas */
+
+    :root {
+
+        /* Tipografía */
+
+        --fontSize-title-2: 2.5rem;
+    }
+
+    /* Estilos reutilizados */
+
+    .container,
+    :is(.service, .event) .container {
+        max-width: 1200px;
+        width: 100%;
+        margin-inline: auto;
+    }
+
+    /* Barra Superior */
+
+    .topbar .container { max-width: unset; }
+
+    .topbar .separator { display: block; }
+
+    /* Serivicios */
+
+    .service .grid-list { gap: 150px; }
+
+    .service .grid-list li:nth-child(2n+1) { transform: translateY(-160px); }
+
+    .service .section-text { margin-block-end: 75px; }
+
+    /* Sobre Nosotros */
+
+    .about { padding-block: 170px 100px; }
+
+    /* Plato Especial */
+
+    .special-dish-content {
+        padding: 225px 120px;
+        padding-inline-end: 0;
+    }
+
+    .special-dish-content .container {
+        max-width: 460px;
+        margin-inline: 0;
+    }
+
+    /* Menú */
+
+    .menu .grid-list {
+        gap: 55px 200px;
+        margin-block-end: 55px;
+    }
+
+    /* Testimonios */
+
+    .form-left,
+    .form-right { padding: 75px 60px; }
+
+  }
+
   
   
 
