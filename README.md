@@ -5,9 +5,11 @@ Este repositorio contiene el código fuente para la página web del restaurante 
 # Enlace de Vídeo Explicativo.
 https://youtu.be/h5xuFf0lwUc?si=yD30BMuTC4Va1t-D
 
-# Mockups y Wireframes de la Página
--Mockups: https://www.figma.com/file/E7lsiysgUUDMKNgatvxyHN/mockups?type=design&node-id=0%3A1&mode=design&t=7zIdGHcRoG2xuyXU-1
--Wireframes: https://www.figma.com/file/bboQ51CrfF13rJQQP0S4xt/wireframe?type=design&node-id=0%3A1&mode=design&t=BrtAsoNz6SwOwYmV-1
+# Mockups de la Página
+https://www.figma.com/file/E7lsiysgUUDMKNgatvxyHN/mockups?type=design&node-id=0%3A1&mode=design&t=7zIdGHcRoG2xuyXU-1
+
+# Wireframes de la Página:
+https://www.figma.com/file/bboQ51CrfF13rJQQP0S4xt/wireframe?type=design&node-id=0%3A1&mode=design&t=BrtAsoNz6SwOwYmV-1
 
 ## Tecnologías utilizadas
 
