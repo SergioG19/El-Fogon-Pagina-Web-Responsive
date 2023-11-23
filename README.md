@@ -11,6 +11,9 @@ https://www.figma.com/file/E7lsiysgUUDMKNgatvxyHN/mockups?type=design&node-id=0%
 # Wireframes de la Página:
 https://www.figma.com/file/bboQ51CrfF13rJQQP0S4xt/wireframe?type=design&node-id=0%3A1&mode=design&t=BrtAsoNz6SwOwYmV-1
 
+## Paleta de Colores:
+https://www.figma.com/file/PRLcSTwdGByuPE4mud7sSF/Paleta-de-colores?type=design&node-id=0%3A1&mode=design&t=Gf9oHWYFxDzWAStv-1
+
 ## Tecnologías utilizadas
 
 - HTML5 y CSS3 para la estructura y diseño del sitio. 
